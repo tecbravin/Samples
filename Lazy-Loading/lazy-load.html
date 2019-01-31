@@ -1,0 +1,45 @@
+<html lang="pt-BR" class=" -webkit-">
+<head>
+<link rel="stylesheet" href="lazy-load.css"></link>
+</head>
+<body>
+<div class="screen" id="first-screen">
+  <h1>Teste de Lazy-Loading</h1>
+</div>
+<div class="screen" id="second-screen">
+  <h1>Second Screen</h1>
+</div>
+
+<div class="screen center">
+  <main>
+    <div>
+      <a href=""><img data-src="https://farm5.staticflickr.com/4616/39798634951_aa270731f6_k_d.jpg"></a>
+     <a href=""><img data-src="https://farm8.staticflickr.com/7364/9797687423_89d0b3040b_z_d.jpg"></a>
+    </div>
+    <div>
+      <a href=""><img data-src="https://farm9.staticflickr.com/8713/16979768317_44c27d64c9_z_d.jpg"></a>
+      <a href=""><img data-src="https://farm2.staticflickr.com/1717/24895045945_d99447e642_b_d.jpg"></a>
+      <a href=""><img data-src="https://farm5.staticflickr.com/4745/38898563945_d3974144c0_z_d.jpg"></a>
+    </div>
+    <div>
+            <a href=""><img data-src="https://farm2.staticflickr.com/1502/24195472655_bc7e4f3582_z_d.jpg"></a>
+      <a href="" ><img data-src="https://farm6.staticflickr.com/5691/23446613226_6ac1a5b1a2_z_d.jpg"></a>
+      <a href=""><img data-src="https://farm2.staticflickr.com/1594/24342615229_4d407695ef_z_d.jpg"></a>
+      <a href=""><img data-src="https://farm4.staticflickr.com/3707/9288847355_3aa5800e92_z_d.jpg"></a>
+    </div>
+  </main>
+</div>
+
+<div class="screen" id="fourth-screen">
+  <h1>Fourth Screen</h1>
+</div>
+
+<div id="monitor">
+  <div id="isIntersecting">
+    <span class="placeholder">0</span>
+    images loaded
+    </div>
+</div>
+<script type="text/javascript" src="lazy-load.js"></script>
+</body>
+</html>
